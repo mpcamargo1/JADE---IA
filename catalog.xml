@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<catalog xmlns="urn:oasis:names:tc:entity:xmlns:xml:catalog" prefer="system">
+    <system systemId="http://localhost:8080/WebServiceBackup/Backup?wsdl" uri="xml-resources/web-service-references/Backup/wsdl/localhost_8080/WebServiceBackup/Backup.wsdl"/>
+    <system systemId="http://localhost:8080/WebServiceBackup/Backup?xsd=1" uri="xml-resources/web-service-references/Backup/wsdl/localhost_8080/WebServiceBackup/Backup.xsd_1.xsd"/>
+    <system systemId="http://localhost:8085/WebServiceBackup/NewWebService?wsdl" uri="xml-resources/web-service-references/NewWebService/wsdl/localhost_8085/WebServiceBackup/NewWebService.wsdl"/>
+    <system systemId="http://localhost:8085/WebServiceBackup/NewWebService?xsd=1" uri="xml-resources/web-service-references/NewWebService/wsdl/localhost_8085/WebServiceBackup/NewWebService.xsd_1.xsd"/>
+    <system systemId="http://localhost:8080/WebService/Calculator?wsdl" uri="xml-resources/web-service-references/Calculator/wsdl/localhost_8080/WebService/Calculator.wsdl"/>
+    <system systemId="http://localhost:8080/WebService/Calculator?xsd=1" uri="xml-resources/web-service-references/Calculator/wsdl/localhost_8080/WebService/Calculator.xsd_1.xsd"/>
+    <system systemId="http://localhost:8085/WebServiceBackup/Backup?wsdl" uri="xml-resources/web-service-references/Backup/wsdl/localhost_8085/WebServiceBackup/Backup.wsdl"/>
+    <system systemId="http://localhost:8085/WebServiceBackup/Backup?xsd=1" uri="xml-resources/web-service-references/Backup/wsdl/localhost_8085/WebServiceBackup/Backup.xsd_1.xsd"/>
+    <system systemId="http://localhost:8080/WebService/CPS?wsdl" uri="xml-resources/web-service-references/CPS/wsdl/localhost_8080/WebService/CPS.wsdl"/>
+    <system systemId="http://localhost:8080/WebService/CPS?xsd=1" uri="xml-resources/web-service-references/CPS/wsdl/localhost_8080/WebService/CPS.xsd_1.xsd"/>
+</catalog>

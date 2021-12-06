@@ -1,0 +1,178 @@
+<?xml version='1.0' encoding='UTF-8'?><!-- Published by JAX-WS RI at http://jax-ws.dev.java.net. RI's version is JAX-WS RI 2.2-hudson-740-. --><xs:schema xmlns:tns="http://service.com/" xmlns:xs="http://www.w3.org/2001/XMLSchema" version="1.0" targetNamespace="http://service.com/">
+
+<xs:element name="Sub" type="tns:Sub" />
+
+<xs:element name="SubResponse" type="tns:SubResponse" />
+
+<xs:element name="Sum" type="tns:Sum" />
+
+<xs:element name="SumResponse" type="tns:SumResponse" />
+
+<xs:element name="addClass" type="tns:addClass" />
+
+<xs:element name="addClassResponse" type="tns:addClassResponse" />
+
+<xs:element name="addNumber" type="tns:addNumber" />
+
+<xs:element name="addNumberResponse" type="tns:addNumberResponse" />
+
+<xs:element name="alarm" type="tns:alarm" />
+
+<xs:element name="alarmResponse" type="tns:alarmResponse" />
+
+<xs:element name="getAirFlow" type="tns:getAirFlow" />
+
+<xs:element name="getAirFlowResponse" type="tns:getAirFlowResponse" />
+
+<xs:element name="getBloodPressure" type="tns:getBloodPressure" />
+
+<xs:element name="getBloodPressureResponse" type="tns:getBloodPressureResponse" />
+
+<xs:element name="getGlicose" type="tns:getGlicose" />
+
+<xs:element name="getGlicoseResponse" type="tns:getGlicoseResponse" />
+
+<xs:element name="getHeartRate" type="tns:getHeartRate" />
+
+<xs:element name="getHeartRateResponse" type="tns:getHeartRateResponse" />
+
+<xs:element name="getPulseOxygen" type="tns:getPulseOxygen" />
+
+<xs:element name="getPulseOxygenResponse" type="tns:getPulseOxygenResponse" />
+
+<xs:element name="getTemperature" type="tns:getTemperature" />
+
+<xs:element name="getTemperatureResponse" type="tns:getTemperatureResponse" />
+
+<xs:complexType name="getGlicose">
+<xs:sequence />
+</xs:complexType>
+
+<xs:complexType name="getGlicoseResponse">
+<xs:sequence>
+<xs:element name="return" type="xs:double" minOccurs="0" />
+</xs:sequence>
+</xs:complexType>
+
+<xs:complexType name="getAirFlow">
+<xs:sequence />
+</xs:complexType>
+
+<xs:complexType name="getAirFlowResponse">
+<xs:sequence>
+<xs:element name="return" type="xs:double" minOccurs="0" />
+</xs:sequence>
+</xs:complexType>
+
+<xs:complexType name="getTemperature">
+<xs:sequence />
+</xs:complexType>
+
+<xs:complexType name="getTemperatureResponse">
+<xs:sequence>
+<xs:element name="return" type="xs:double" minOccurs="0" />
+</xs:sequence>
+</xs:complexType>
+
+<xs:complexType name="getHeartRate">
+<xs:sequence />
+</xs:complexType>
+
+<xs:complexType name="getHeartRateResponse">
+<xs:sequence>
+<xs:element name="return" type="xs:double" minOccurs="0" />
+</xs:sequence>
+</xs:complexType>
+
+<xs:complexType name="addClass">
+<xs:sequence />
+</xs:complexType>
+
+<xs:complexType name="addClassResponse">
+<xs:sequence>
+<xs:element name="return" type="tns:musica" minOccurs="0" />
+</xs:sequence>
+</xs:complexType>
+
+<xs:complexType name="musica">
+<xs:sequence>
+<xs:element name="album" type="xs:string" minOccurs="0" />
+<xs:element name="nome" type="xs:string" minOccurs="0" />
+</xs:sequence>
+</xs:complexType>
+
+<xs:complexType name="alarm">
+<xs:sequence>
+<xs:element name="arg0" type="xs:double" minOccurs="0" />
+</xs:sequence>
+</xs:complexType>
+
+<xs:complexType name="alarmResponse">
+<xs:sequence>
+<xs:element name="return" type="xs:double" minOccurs="0" />
+</xs:sequence>
+</xs:complexType>
+
+<xs:complexType name="Sum">
+<xs:sequence>
+<xs:element name="num1" type="xs:int" minOccurs="0" />
+<xs:element name="num2" type="xs:int" minOccurs="0" />
+</xs:sequence>
+</xs:complexType>
+
+<xs:complexType name="SumResponse">
+<xs:sequence>
+<xs:element name="return" type="xs:int" minOccurs="0" />
+</xs:sequence>
+</xs:complexType>
+
+<xs:complexType name="addNumber">
+<xs:sequence />
+</xs:complexType>
+
+<xs:complexType name="addNumberResponse">
+<xs:sequence>
+<xs:element name="return" type="xs:int" minOccurs="0" />
+</xs:sequence>
+</xs:complexType>
+
+<xs:complexType name="getBloodPressure">
+<xs:sequence />
+</xs:complexType>
+
+<xs:complexType name="getBloodPressureResponse">
+<xs:sequence>
+<xs:element name="return" type="tns:bloodPressure" minOccurs="0" />
+</xs:sequence>
+</xs:complexType>
+
+<xs:complexType name="bloodPressure">
+<xs:sequence>
+<xs:element name="diastolic" type="xs:double" minOccurs="0" />
+<xs:element name="systolic" type="xs:double" minOccurs="0" />
+</xs:sequence>
+</xs:complexType>
+
+<xs:complexType name="getPulseOxygen">
+<xs:sequence />
+</xs:complexType>
+
+<xs:complexType name="getPulseOxygenResponse">
+<xs:sequence>
+<xs:element name="return" type="xs:double" minOccurs="0" />
+</xs:sequence>
+</xs:complexType>
+
+<xs:complexType name="Sub">
+<xs:sequence>
+<xs:element name="num1" type="xs:int" minOccurs="0" />
+<xs:element name="num2" type="xs:int" minOccurs="0" />
+</xs:sequence>
+</xs:complexType>
+
+<xs:complexType name="SubResponse">
+<xs:sequence>
+<xs:element name="return" type="xs:int" minOccurs="0" />
+</xs:sequence>
+</xs:complexType>
+</xs:schema>
